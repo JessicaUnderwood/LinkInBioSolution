@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: black;
+    color: hsl(0, 0%, 100%);
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    margin: 80px auto;
+    width: 450px;
+    height: 715px;
+    background: hsl(0, 0%, 12%);
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+span {
+    color: hsl(75, 94%, 57%);
+    display: block;
+    padding: 5px 0 20px 0;
+}
+
+.about-me {
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links a {
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    padding: 20px 0;
+    margin: 10px 40px;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: hsl(215, 100%, 34%);
+    transition-duration: 1s;
+}
